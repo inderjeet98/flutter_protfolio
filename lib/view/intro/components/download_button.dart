@@ -10,7 +10,7 @@ class DownloadButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        launchUrl(Uri.parse('https://drive.google.com/file/d/1399CC97XzZ8dDdO6HBpf4EX4JX6JY9u2/view?usp=sharing'));
+        launchUrl(Uri.parse('https://drive.google.com/file/d/19Pxr6_79kA_sVf-ay0BikVzf3oN9UV0w/view?usp=drivesdk'));
       },
       child: Container(
         alignment: Alignment.center,
