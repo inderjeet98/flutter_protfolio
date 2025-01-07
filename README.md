@@ -72,8 +72,8 @@ I welcome contributions and suggestions from the community! If you come across a
 
 Your feedback and thoughts are highly valued. Feel free to connect with me through:
 
-- **Email:** rh676838@gmail.com
-- **LinkedIn:** [Hamad Anwar](https://www.linkedin.com/in/hamad-anwar)
+- **Email:** rrohilla98@gmail.com
+- **LinkedIn:** [Inderjeet](https://www.linkedin.com/in/inderjeet-rohilla-240b52202)
 
 ## License
 
