@@ -29,13 +29,13 @@ List<CertificateModel> certificateList = [
     skills: 'Python',
     credential: 'https://drive.google.com/file/d/1-JsSUEeiZgnp4_swkRpetfgVauS-LMHv/view?usp=sharing',
   ),
-  // CertificateModel(
-  //   name: 'Complete Dart Learning',
-  //   organization: 'Udemy',
-  //   date: 'JUN 2023',
-  //   skills: 'Flutter . Dart . Programming',
-  //   credential: 'https://www.udemy.com/certificate/UC-5b01c756-0d20-4342-94e6-9d5860d1c95e/',
-  // ),
+  CertificateModel(
+    name: '“Online International Day of Biological Diversity Quiz”',
+    organization: 'J. C. Bose YMCA University, Faridabad',
+    date: 'MAY 2021',
+    skills: 'Science',
+    credential: 'https://drive.google.com/file/d/1ddTeg5JZ2Zb13BPzgitIeMaa2pZyy_SO/view?usp=sharing',
+  ),
   // CertificateModel(
   //   name: 'Flutter REST Movie App',
   //   organization: 'Udemy',
