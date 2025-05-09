@@ -28,11 +28,7 @@ List<Project> projectList = [
       'git'),
   Project('Wallpaper App', 'Wallpaer App is user-friendly mobile application built using Flutter. User can search and download different-different categorties wallpapers in 4k quality wallpapers ', 'assets/images/wallpaper_app.png',
       'https://github.com/inderjeet98/flutter_wallpapper_app', 'git'),
-  // Project(
-  //     'Flutter Music Streaming Application',
-  //     'A Flutter music streaming application that allows users to play audio files from local storage. The app features a beautiful neumorphic UI design and provides a smooth user experience for browsing and playing music.',
-  //     'assets/images/player.png',
-  //     'https://github.com/Hamad-Anwar/Neumorphic-Music_Player-Flutter'),
+  Project('MyTreks.Ai', 'A Flutter app is made for 13+ age students. MyTreks.ai is your ultimate career and college prep companion for students in grades 7–10.', 'assets/images/mytreks_home.png', 'assets/images/mytreks_home.png', 'appStore'),
   // Project(
   //     'Food Recipe App',
   //     'This repository contains a Flutter implementation of a Food Recipe app with a captivating introduction section and impressive animations. It also features a signup and signin page with animations, elegantly presented on a bottom sheet.',

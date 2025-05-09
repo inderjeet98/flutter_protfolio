@@ -23,13 +23,7 @@ class ProjectDetail extends StatelessWidget {
             overflow: TextOverflow.ellipsis,
           ),
         ),
-        Responsive.isMobile(context)
-            ? const SizedBox(
-                height: defaultPadding / 2,
-              )
-            : const SizedBox(
-                height: defaultPadding,
-              ),
+        Responsive.isMobile(context) ? const SizedBox(height: defaultPadding / 2) : const SizedBox(height: defaultPadding),
         Text(
           projectList[index].description,
           style: const TextStyle(color: Colors.grey, height: 1.5),
@@ -45,7 +39,7 @@ class ProjectDetail extends StatelessWidget {
           overflow: TextOverflow.ellipsis,
         ),
         const Spacer(),
-        ProjectLinks(index: index, isPlayStoreLink: projectList[index].playstoreGit == 'playstore'),
+        ProjectLinks(index: index, isPlayStoreLink: projectList[index].playstoreGit == 'playstore', isAppStoreLink: projectList[index].playstoreGit == 'appStore'),
         const SizedBox(height: defaultPadding / 2),
       ],
     );

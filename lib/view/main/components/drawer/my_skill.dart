@@ -20,17 +20,13 @@ class AnimatedLinearProgressIndicator extends StatelessWidget {
               Row(
                 children: [
                   Image.asset(image!, height: 15, width: 15, fit: BoxFit.cover),
-                  const SizedBox(
-                    width: 5,
-                  ),
+                  const SizedBox(width: 5),
                   Text(title, style: const TextStyle(color: Colors.white)),
                   const Spacer(),
                   Text('${(value * 100).toInt().toString()}%'),
                 ],
               ),
-              const SizedBox(
-                height: defaultPadding / 2,
-              ),
+              const SizedBox(height: defaultPadding / 2),
               LinearProgressIndicator(
                 value: value,
                 backgroundColor: Colors.black,
@@ -60,6 +56,7 @@ class MySKills extends StatelessWidget {
         AnimatedLinearProgressIndicator(percentage: 0.6, title: 'Clean Architecture', image: 'assets/icons/flutter.png'),
         AnimatedLinearProgressIndicator(percentage: 0.4, title: 'Bloc', image: 'assets/icons/bloc.png'),
         AnimatedLinearProgressIndicator(percentage: 0.55, title: 'Getx', image: 'assets/icons/dart.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.35, title: 'Flutter Animations', image: 'assets/icons/dart.png'),
       ],
     );
   }
