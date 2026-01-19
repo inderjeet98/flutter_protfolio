@@ -30,7 +30,7 @@ List<CertificateModel> certificateList = [
     credential: 'https://drive.google.com/file/d/1-JsSUEeiZgnp4_swkRpetfgVauS-LMHv/view?usp=sharing',
   ),
   CertificateModel(
-    name: '“Online International Day of Biological Diversity Quiz”',
+    name: 'Online International Day of Biological Diversity Quiz',
     organization: 'J. C. Bose YMCA University, Faridabad',
     date: 'MAY 2021',
     skills: 'Science',

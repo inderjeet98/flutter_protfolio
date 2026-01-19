@@ -34,12 +34,12 @@ class ProjectDetail extends StatelessWidget {
                   : size.width > 600 && size.width < 700
                       ? 6
                       : size.width > 900 && size.width < 1060
-                          ? 6
+                          ? 7
                           : 4,
           overflow: TextOverflow.ellipsis,
         ),
         const Spacer(),
-        ProjectLinks(index: index, isPlayStoreLink: projectList[index].playstoreGit == 'playstore', isAppStoreLink: projectList[index].playstoreGit == 'appStore'),
+        ProjectLinks(index: index, isPlayStoreLink: projectList[index].playstoreGit == 'playstore', isAppStoreLink: projectList[index].playstoreGit == 'appStore', isBothStoresLink: projectList[index].playstoreGit == 'bothStores'), //bothStores
         const SizedBox(height: defaultPadding / 2),
       ],
     );
